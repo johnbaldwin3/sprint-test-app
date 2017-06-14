@@ -31,9 +31,51 @@ footer {
   padding: 15px;
 
 }
+.actor_content {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.actor-image {
+  display: inline-block;
+  max-height: 200px;
+}
 
 .pictures {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.home-link {
+  /*height: 40px;
+  width: 90px;*/
+  display: flex;
+  justify-content: center;
+
+  text-decoration: none;
+
+
+}
+
+.home-button {
+  font-size: 40px;
+  width: 200px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.selected {
+
+  box-shadow: 0px 0px 5px gray;
+}
+
+.actor-info {
+  display: inline-block;
+  justify-content: flex-start;
+}
+.actor-bio {
+  max-width: 500px;
+  display: flex;
+  justify-content: flex-end;
 }
